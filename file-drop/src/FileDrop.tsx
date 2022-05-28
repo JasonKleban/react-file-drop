@@ -21,6 +21,7 @@ export interface FileDropProps {
   onDrop?: (files: FileList | null, event: ReactDragEvent<HTMLDivElement>) => any;
   onTargetClick?: ReactEventHandler<HTMLDivElement>;
   dropEffect?: DropEffects;
+  children?: React.ReactNode;
 }
 
 export interface FileDropState {
